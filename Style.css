@@ -1,4 +1,15 @@
 .container{
-height: 750px;
-width: 65%;
+height: 850px;
+width: 58%;
+margin: auto;
+clear: both;
+}
+
+.card {
+    padding: 50px;
+    padding-left: 35px;
+    position: relative;
+    overflow: auto;
+    float: left;
+    margin: 37px 16px 37px;
 }
