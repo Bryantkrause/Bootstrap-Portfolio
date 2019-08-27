@@ -13,3 +13,39 @@ clear: both;
     float: left;
     margin: 37px 16px 37px;
 }
+
+
+
+@media screen and (min-width: 980px){
+
+ body {
+   background-color: lavender;  
+ }  
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
+    body {
+      background-color: red;  
+     } .container {
+        height: 850px;
+        width: 70%;
+        margin: auto;
+        clear: both;
+        }
+    }  
+   
+
+   @media screen and (min-width: 640px) and (max-width: 767px) {
+
+    body {
+      background-color: purple;  
+    }  
+   }
+
+   @media screen and (max-width: 639px) {
+
+    body {
+      background-color: blue;  
+    }  
+   }
